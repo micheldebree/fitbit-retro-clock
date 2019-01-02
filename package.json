@@ -1,0 +1,37 @@
+{
+  "fitbit": {
+    "appUUID": "2b23afa0-7df6-4933-af94-6eb192c176e4",
+    "appType": "clockface",
+    "appDisplayName": "Retro Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_user_profile",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Retro Clock"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0",
+    "@fitbit/sdk-cli": "1.5.0",
+    "eslint": "5.11.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.11.1"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "icon": "echo \"screenshot ./resources/icon.png\" | npx fitbit",
+    "test": "echo \"install\" | npx fitbit",
+    "generate-appid": "fitbit-build generate-appid"
+  }
+}

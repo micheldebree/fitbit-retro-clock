@@ -1,0 +1,8 @@
+<!-- vim: set ft=svg :-->
+<svg id="background">
+  <text id="time" />
+  <text id="date" />
+  <text id="dow" />
+  <text id="day" />
+  <text id="month" />
+</svg>
