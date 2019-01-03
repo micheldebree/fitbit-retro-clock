@@ -1,8 +1,8 @@
 <!-- vim: set ft=svg :-->
 <svg id="background">
-  <text id="time" />
-  <text id="date" />
-  <text id="dow" />
-  <text id="day" />
-  <text id="month" />
+  <image href="lcd.png" x="0" y="0" width="300" height="300"/>
+  <image id="h1" href="8.png" x="9" y="105" width="60" height="90"/>
+  <image id="h2" href="8.png" x="72" y="105" width="60" height="90"/>
+  <image id="m1" href="8.png" x="167" y="105" width="60" height="90"/>
+  <image id="m2" href="8.png" x="230" y="105" width="60" height="90"/>
 </svg>
