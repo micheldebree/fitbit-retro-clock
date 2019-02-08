@@ -20,16 +20,16 @@
   "devDependencies": {
     "@fitbit/sdk": "~3.0.0",
     "@fitbit/sdk-cli": "1.5.0",
-    "eslint": "5.11.0",
+    "eslint": "5.13.0",
     "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-react": "7.11.1"
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4"
   },
   "scripts": {
     "build": "fitbit-build",
     "icon": "echo \"screenshot ./resources/icon.png\" | npx fitbit",
-    "test": "echo \"install\" | npx fitbit",
+    "test": "yarn run build && echo \"install\" | npx fitbit",
     "generate-appid": "fitbit-build generate-appid"
   }
 }

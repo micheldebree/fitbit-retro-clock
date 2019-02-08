@@ -18,8 +18,8 @@ yarn install
 
 ### Generate new appid
 
-If you are making a new version of the clock face, make sure to generate its own
-appid:
+If you are making a new clock face, make sure to generate its own
+appid. If you just want to work in this one, skip this.
 
 ```sh
 yarn run generate-appid

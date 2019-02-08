@@ -1,45 +1,9 @@
 #background {
-  viewport-fill: #a8c64e;
-  background: url('0.png');
+  /* viewport-fill: #a8c64e; */
+  viewport-fill: black;
 }
 
-text {
-  text-length: 1000;
-  font-family: System-Bold;
-  fill: white;
-}
-
-#time {
-  text-length: 32;
-  text-anchor: middle;
-  x: 50%;
-  y: 50%;
-  font-size: 100;
-}
-
-#day {
-  text-length: 2;
-  text-anchor: middle;
-  x: 50%;
-  y: 75%;
-  font-size: 50;
-  fill: white;
-}
-
-#dow {
-  text-length: 3;
-  text-anchor: end;
-  x: 33%;
-  y: 75%;
-  font-size: 30;
+.digit {
   fill: crimson;
-}
-
-#month {
-  text-length: 3;
-  text-anchor: start;
-  x: 66%;
-  y: 75%;
-  font-size: 30;
-  fill: crimson;
+  /* opacity: 10; */
 }
